@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">ANAGHA <span class="animate" style="--i:1;"></span></a>
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="https://drive.google.com/file/d/1SLi_523jsC5HVsBuzYNCxfpnLz7rx0bA/view?usp=sharing">Resume</a> 
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Anagha</span></h1>
+            <div class="text-animation">
+                <h3>Creative Engineer</h3>
+            </div>
+            <p>I am an enthusiastic and driven graduate in Computer Science and Engineering,
+               actively seeking an entry-level software development position.
+               My goal is to leverage my programming skills and understanding of algorithms to contribute to innovative 
+               projects that enhance user experiences. I am passionate about problem-solving and dedicated to 
+               continuous learning in the ever-evolving tech landscape.</p>
+        </div>
+        
+        <div class="home-sci">
+            <div class="sci-item">
+                <a href="https://github.com/Anagha1577" target="_blank" rel="noopener noreferrer">
+                    <i class="bx bxl-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+            <div class="sci-item">
+                <a href="https://www.guvi.in/pradeepanagha48026892" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-laptop-code"></i> 
+                    <span>GUVI</span>
+                </a>
+            </div>
+            <div class="sci-item">
+                <a href="https://www.geeksforgeeks.org/user/pradeepan53r3/">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>GeeksforGeeks</span>
+                </a>
+            </div>
+        </div>
+        <div class="home-imgHover"></div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="d:\8277.jpg" alt="Profile Picture">
+            </div>
+            <div class="about-content">
+                <h2>Let’s Create <span></span>Together!</h2>
+                <p>Thank you for taking the time to explore my portfolio.
+                I am passionate about collaborating on innovative projects and would love to connect with like-minded individuals
+                and teams. Please feel free to reach out via email at pradeepanagha480@gmail.com
+                or connect with me on LinkedIn at https://www.linkedin.com/in/anagha-p-2103b12b2/. I look forward to hearing from you!</p>      
+                <div class="tabs">
+                    <button class="tablink" onclick="openTab(event, 'Skills')">Skills</button>
+                    <button class="tablink" onclick="openTab(event, 'Project')">Project</button>
+                    <button class="tablink" onclick="openTab(event, 'Education')">Education</button>
+                </div>
+                <div id="Skills" class="tabcontent">
+                    <ul>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+                <div id="Project" class="tabcontent" style="display:none">
+                    <ul>
+                        <li>Online Parking Reservation System - Using: Android Studio | Flutter | Figma | Firebase</li>
+                        <li>Airline Reservation System - Using: Java | JDBC</li>
+                        <li>Artificial Intelligence in Farm Protector - Using: Python | TensorFlow | OpenCV | Cameras</li>
+                    </ul>
+                </div>
+                <div id="Education" class="tabcontent" style="display:none">
+                    <ul>
+                        <li>B.E-2021/2025-Excel Engineering College</li>
+                        <li>PLUS TWO/2020-Brothers Higher Secondary School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Anagha | All Rights Reserved</p>
+        </div>
+        <div class="footer-icontop">
+            <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
+
